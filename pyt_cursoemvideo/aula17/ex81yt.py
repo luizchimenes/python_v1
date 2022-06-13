@@ -1,3 +1,4 @@
+# Ler 5 números e colocá-los em ordem sem usar .sort()
 lista = []
 for c in range(5):
     num = int(input("Digite um valor: "))
