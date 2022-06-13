@@ -1,4 +1,4 @@
-# Maior e menor valores na Lista - Ler 5 números
+# Maior e menor valores na Lista - Ler 5 números e mostrar o maior/ menor e suas respectivas posições
 lista = [int(input('Digite o primeiro número: ')), int(input('Digite o segundo número: ')),
 int(input('Digite o terceiro número: ')), int(input('Digite o quarto número: ')), 
 int(input('Digite o quinto número: '))]
