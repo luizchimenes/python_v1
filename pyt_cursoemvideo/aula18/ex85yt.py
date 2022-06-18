@@ -21,14 +21,14 @@ while True:
         break
 print(20*"-=-")
 print(f"Foram cadastradas {len(lista)} pessoas")
-print(f"O maior peso foi de {maior} de ", end='')
+print(f"O maior peso foi {maior}kg de ", end='')
 for p in lista:
     if p[1] == maior:
-        print(p[0])
-print(f"O menor peso foi de {menor} de ", end="")
+        print(f"[p[0]]")
+print(f"O menor peso foi {menor}kg de ", end="")
 for p in lista:
     if p[1] == menor:
-        print(p[0])
+        print(f"[p[0]]")
 
 
 
