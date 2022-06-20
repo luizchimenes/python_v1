@@ -7,6 +7,8 @@ for c in range(7):
     elif num % 2 == 1:
         lista[1].append(num)
 print(20*"-=")
+lista[0].sort()
+lista[1].sort()
 print(f"Os números pares foram : {lista[0]}")
 print(f"Os números ímpares foram: {lista[1]}")
     
