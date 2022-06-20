@@ -28,7 +28,7 @@ for p in lista:
 print(f"O menor peso foi {menor}kg de ", end="")
 for p in lista:
     if p[1] == menor:
-        print(f"[p[0]]")
+        print(f"{p[0]}")
 
 
 
