@@ -26,3 +26,4 @@ for j in range(3):
     elif matriz[1][j] > maior:
         maior = matriz[1][j]
 print(f"O maior número da segunda linha é {maior}!")
+print("-=-= FIM DO PROGRAMA -=-=")
