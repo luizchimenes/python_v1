@@ -5,7 +5,7 @@ lista = []
 lista_total= []
 cont = 0
 jogos = int(input("Quantos jogos deseja? "))
-tot = 0
+tot = 1
 while tot <= jogos:
     while True:
         x = randint(1,60)
