@@ -15,5 +15,14 @@ for i in range(3):
         if matriz[i][j] % 2 == 0:
             soma_pares += matriz[i][j]
     print()
-for l in range(3):
-    
+print(15*'-=-')
+print(f"A soma de todos os números pares vale {soma_pares}!")
+for i in range(3):
+    soma_terceira = matriz[i][2]
+print(f"A soma dos números da terceira coluna vale {soma_terceira}!")
+for j in range(3):
+    if j == 0:
+        maior = matriz[1][j]
+    elif matriz[1][j] > maior:
+        maior = matriz[1][j]
+print(f"O maior número da segunda linha é {maior}!")
